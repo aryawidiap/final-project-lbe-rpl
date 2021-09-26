@@ -7,11 +7,11 @@ import "./Main.css";
 const Main = () => {
   return (
     <>
-    <div class="hero">
-      <h2>What to Eat?</h2>
-      <p>Discover foods to cook and eat!</p>
-      <button>v</button>
-    </div>
+      <div className="card">
+        <h2>What to Eat?</h2>
+        <p>Discover foods to cook and eat!</p>
+        <a href="#featured">v</a>
+      </div>
       <Featured />
       <FoodList />
     </>
@@ -19,12 +19,3 @@ const Main = () => {
 };
 
 export default Main;
-/*<section className="card">
-        <img src={foodThumb} alt="This food" />
-        <div className="description-text">
-          <h2>Nasi Goreng</h2>
-          <Link to="/details">
-            <em>Details &gt;</em>{" "}
-          </Link>
-        </div>
-      </section>*/
